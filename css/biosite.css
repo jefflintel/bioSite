@@ -1,0 +1,223 @@
+html {
+    font-size: 16px;
+    margin: 0;
+    color: #f0f0f0;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    color: #f0f0f0;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav {
+    height: 11vh;
+    width: 100vw;
+    background-color: #3B3535;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    font-size: 1.95em;
+}
+
+img {
+    margin-right: 5ch;
+}
+
+footer {
+    background-color: #3B3535;
+    text-align: center;
+    line-height: 2.5em;
+    margin: 0;
+    height: 5.5vh;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.5ch;
+    margin-bottom: 0;
+    height: 5vh;
+    z-index: 5;
+}
+
+.interest-pic {
+    height: 75%;
+    margin-left: 1ch;
+    margin-right: 3ch;
+    margin-top: 1ch;
+}
+
+.designer {
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .75ch;
+}
+
+.fa-truck-monster {
+    color: #D91134;
+}
+
+.fa-bicycle {
+    color: #E16324
+}
+
+.fa-hiking {
+    color: #F7A123;
+}
+
+#name {
+    position: relative;
+    top: 33vh;
+    left: 23vw;
+    width: 50vw;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 5.96em;
+    text-transform: uppercase;
+    letter-spacing: .5ch;
+}
+
+#tagline {
+    position: relative;
+    top: 50vh;
+    left: 23vw;
+    width: 50vw;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 3.05em;
+    text-transform: uppercase;
+    letter-spacing: .25ch;
+}
+
+#home {
+    background-image: url(../images/Portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+}
+
+#cars {
+    background-image: url(../images/Montero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#cars-description {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    top: 30vh;
+    width: 60vw;
+    background-image: linear-gradient(to right, rgba(217, 17, 52, 1), rgba(217, 17, 52, .5));
+    font-family: 'Roboto', sans-serif;
+}
+
+#bikes {
+    background-image: url(../images/Bikes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    }
+
+#bikes-description {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    top: 30vh;
+    width: 60vw;
+    background-image: linear-gradient(to right, rgba(225, 99, 36, 1), rgba(225, 99, 36, .5));
+    font-family: 'Roboto', sans-serif;
+}
+
+#outdoors {
+    background-image: url(../images/Outdoors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#outdoors-description {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    top: 30vh;
+    width: 60vw;
+    background-image: linear-gradient(to right, rgba(247, 161, 35, 1), rgba(247, 161, 35, .5));
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    top: 15vh;
+    right: 0;
+    height: 75vh;
+    width: 25vw;
+    display: none;
+    flex-direction: column;
+}
+
+#side-cars {
+    display: flex;
+    align-items: center;
+    background-color: #D91134;
+    opacity: 80%;
+    height: 30%;
+    width: 100%;
+    margin-top: 5vh;
+    padding-left: 1ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
+#side-bikes {
+    display: flex;
+    align-items: center;
+    background-color: #E16324;
+    opacity: 80%;
+    height: 30%;
+    width: 100%;
+    margin-top: 5vh;
+    padding-left: 1ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
+#side-outdoors {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F7A123;
+    opacity: 80%;
+    height: 30%;
+    width: 100%;
+    margin-top: 5vh;
+    padding-left: 1ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
