@@ -86,7 +86,7 @@ footer {
 .inner {
     opacity: 0;
     position: absolute;
-    top: 3vh;
+    top: 5ch;
     left: 0;
     transition: opacity .75s;
 }
@@ -150,7 +150,7 @@ footer {
     left: 10vw;
     top: 30vh;
     width: 60vw;
-    height: 22.5vh;
+    height:30ch;
     background-image: linear-gradient(to right, rgba(217, 17, 52, 1), rgba(217, 17, 52, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -170,7 +170,7 @@ footer {
     left: 10vw;
     top: 30vh;
     width: 60vw;
-    height: 22.5vh;
+    height: 30ch;
     background-image: linear-gradient(to right, rgba(225, 99, 36, 1), rgba(225, 99, 36, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -189,7 +189,7 @@ footer {
     position: relative;
     left: 10vw;
     top: 30vh;
-    height: 22.5vh;
+    height: 35ch;
     width: 60vw;
     background-image: linear-gradient(to right, rgba(247, 161, 35, 1), rgba(247, 161, 35, .5));
     font-family: 'Roboto', sans-serif;
