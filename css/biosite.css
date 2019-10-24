@@ -79,6 +79,27 @@ footer {
 .fa-hiking {
     color: #F7A123;
 }
+.teaser {
+    font-weight: 900;
+}
+
+.inner {
+    opacity: 0;
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    transition: opacity .75s;
+}
+
+.outer {
+    position: relative;
+    width: 60vw;
+}
+
+.outer:hover .inner {
+    opacity: 1;
+    transition: opacity .75s;
+}
 
 #name {
     position: relative;
@@ -129,6 +150,7 @@ footer {
     left: 10vw;
     top: 30vh;
     width: 60vw;
+    height: 22.5vh;
     background-image: linear-gradient(to right, rgba(217, 17, 52, 1), rgba(217, 17, 52, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -148,6 +170,7 @@ footer {
     left: 10vw;
     top: 30vh;
     width: 60vw;
+    height: 22.5vh;
     background-image: linear-gradient(to right, rgba(225, 99, 36, 1), rgba(225, 99, 36, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -166,58 +189,9 @@ footer {
     position: relative;
     left: 10vw;
     top: 30vh;
+    height: 22.5vh;
     width: 60vw;
     background-image: linear-gradient(to right, rgba(247, 161, 35, 1), rgba(247, 161, 35, .5));
     font-family: 'Roboto', sans-serif;
-}
-
-#sidebar {
-    position: fixed;
-    top: 15vh;
-    right: 0;
-    height: 75vh;
-    width: 25vw;
-    display: none;
-    flex-direction: column;
-}
-
-#side-cars {
-    display: flex;
-    align-items: center;
-    background-color: #D91134;
-    opacity: 80%;
-    height: 30%;
-    width: 100%;
-    margin-top: 5vh;
-    padding-left: 1ch;
-    padding-top: 1ch;
-    padding-bottom: 1ch;
-}
-
-#side-bikes {
-    display: flex;
-    align-items: center;
-    background-color: #E16324;
-    opacity: 80%;
-    height: 30%;
-    width: 100%;
-    margin-top: 5vh;
-    padding-left: 1ch;
-    padding-top: 1ch;
-    padding-bottom: 1ch;
-}
-
-#side-outdoors {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #F7A123;
-    opacity: 80%;
-    height: 30%;
-    width: 100%;
-    margin-top: 5vh;
-    padding-left: 1ch;
-    padding-top: 1ch;
-    padding-bottom: 1ch;
 }
 
