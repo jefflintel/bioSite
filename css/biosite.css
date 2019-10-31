@@ -149,10 +149,20 @@ footer {
     position: relative;
     left: 10vw;
     top: 30vh;
-    width: 60vw;
-    height:30ch;
+    width: 50vw;
+    height:21ch;
+    transition: height .75s;
+    transition: width .1s;
     background-image: linear-gradient(to right, rgba(217, 17, 52, 1), rgba(217, 17, 52, .5));
     font-family: 'Roboto', sans-serif;
+}
+
+/*Consider changing transition timing, maybe using timing functions*/
+/*Consider different sizing units (em/vw/vh/ch) to make presentation more consistent across different screen sizes*/
+
+#cars-description:hover {
+    height: 25ch;
+    width: 60vw;
 }
 
 #bikes {
@@ -162,17 +172,27 @@ footer {
     background-position: center center;
     height: 100vh;
     width: 100vw;
-    }
+}
 
 #bikes-description {
     display: flex;
     position: relative;
     left: 10vw;
     top: 30vh;
-    width: 60vw;
-    height: 30ch;
+    width: 40vw;
+    height: 23ch;
+    transition: height .75s;
+    transition: width .1s;
     background-image: linear-gradient(to right, rgba(225, 99, 36, 1), rgba(225, 99, 36, .5));
     font-family: 'Roboto', sans-serif;
+}
+
+/*Consider changing transition timing, maybe using timing functions*/
+/*Consider different sizing units (em/vw/vh/ch) to make presentation more consistent across different screen sizes*/
+
+#bikes-description:hover {
+    height: 25ch;
+    width: 60vw;
 }
 
 #outdoors {
@@ -189,9 +209,19 @@ footer {
     position: relative;
     left: 10vw;
     top: 30vh;
-    height: 35ch;
-    width: 60vw;
+    height: 18ch;
+    transition: height .75s;
+    transition: width .1s;
+    width: 45vw;
     background-image: linear-gradient(to right, rgba(247, 161, 35, 1), rgba(247, 161, 35, .5));
     font-family: 'Roboto', sans-serif;
+}
+
+/*Consider changing transition timing, maybe using timing functions*/
+/*Consider different sizing units (em/vw/vh/ch) to make presentation more consistent across different screen sizes*/
+
+#outdoors-description:hover {
+    height: 25ch;
+    width: 60vw;
 }
 
