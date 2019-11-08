@@ -151,8 +151,8 @@ footer {
     top: 30vh;
     width: 50vw;
     height:21ch;
-    transition: height .75s;
-    transition: width .1s;
+    transition: height .75s ease-out;
+    transition: width .1s ease-in;
     background-image: linear-gradient(to right, rgba(217, 17, 52, 1), rgba(217, 17, 52, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -181,8 +181,8 @@ footer {
     top: 30vh;
     width: 40vw;
     height: 23ch;
-    transition: height .75s;
-    transition: width .1s;
+    transition: height .75s ease-out;
+    transition: width .1s ease-in;
     background-image: linear-gradient(to right, rgba(225, 99, 36, 1), rgba(225, 99, 36, .5));
     font-family: 'Roboto', sans-serif;
 }
@@ -210,8 +210,8 @@ footer {
     left: 10vw;
     top: 30vh;
     height: 18ch;
-    transition: height .75s;
-    transition: width .1s;
+    transition: height .75s ease-out;
+    transition: width .1s ease-in;
     width: 45vw;
     background-image: linear-gradient(to right, rgba(247, 161, 35, 1), rgba(247, 161, 35, .5));
     font-family: 'Roboto', sans-serif;
